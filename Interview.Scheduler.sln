@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interview.Scheduler", "Interview.Scheduler\Interview.Scheduler.csproj", "{6BF4EB7F-E527-46D2-AF90-8CFBB91BD900}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interview.Scheduler.Tests", "Interview.Scheduler.Tests\Interview.Scheduler.Tests.csproj", "{A498187D-C341-4FAB-9991-8786B1420362}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BF4EB7F-E527-46D2-AF90-8CFBB91BD900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BF4EB7F-E527-46D2-AF90-8CFBB91BD900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BF4EB7F-E527-46D2-AF90-8CFBB91BD900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BF4EB7F-E527-46D2-AF90-8CFBB91BD900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A498187D-C341-4FAB-9991-8786B1420362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A498187D-C341-4FAB-9991-8786B1420362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A498187D-C341-4FAB-9991-8786B1420362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A498187D-C341-4FAB-9991-8786B1420362}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
