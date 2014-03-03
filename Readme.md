@@ -1,21 +1,31 @@
 # Scheduler
 
 The purpose of this test is not to get a "right" or "wrong" answer - it's to see how you code. So, show us what you've got!
+
 We'd normally expect you to spend an hour or so coding the solution.
+
 You should submit your solution in a way that makes it easy for us to use. You should zip up the code, and include Visual Studio .sln files if using .Net; if you're using Java, we'd expect to see an Ant or Maven build script. Unless you include documentation to tell us otherwise, we will expect to be able to build and run the solution with no changes.
+
 It should be quick and easy for us to verify that the input does indeed lead to the expected output. Please use English as the primary language in your solution to enable us to verify the behaviour. 
 What are we looking for?
+
 We want to see you can create production-quality code. This means naming conventions, coding style, sensible design and meaningful commenting. If you feel you can give your work to a brand new colleague with a minimal of hand-over, you've probably got it right.
+
 We are big fans of Test Driven Development, so including unit tests is a good idea.
+
 We realize that writing even a trivial application, and having it "production ready" is a lot of work - so it's okay to leave "to do" comments in your code. Show us the intent, but don't write too much boilerplate.
+
 Show that you're coding something that needs to be maintainable.
 Let us know how long you spent on it and where you did it.
+
 What are we not looking for?
 We don't expect you to use every design pattern you've ever heard of - only apply patterns when it makes sense to do so.
 We don't expect you to build a user interface - a command line application or unit test is fine.
 We're not expecting you to have optimized the solution for performance or memory size - readability is more important than performance.
+
 The whole thing built in the shortest amount of time - it's not a race. We'd like to see what you'd do under normal conditions - if you run out of time, just say so.
- 	Please Don't Copy Work
+
+### Please Don't Copy Work
 There are solutions to this test on the Internet, posted by previous unsuccessful applicants. If we find that you have copied your solution, we will not consider you for interview. 
 For the same reason, please do not share your work with others applicants or on the Internet.
 
@@ -30,6 +40,7 @@ A sample text input follows, to be used in your solution.
 
 ### Input Example
 
+```
 0900 1730
 2011-03-17 10:17:06 EMP001
 2011-03-21 09:00 2
@@ -41,6 +52,7 @@ A sample text input follows, to be used in your solution.
 2011-03-22 16:00 1
 2011-03-15 17:29:12 EMP005
 2011-03-21 16:00 3
+```
 
 
 ## Output
@@ -48,11 +60,13 @@ Your system must provide a successful booking calendar as output, with bookings 
 
 ### Output Example
 
+```
 2011-03-21
 09:00 11:00 EMP002
 2011-03-22
 14:00 16:00 EMP003
 16:00 17:00 EMP004
+```
 
 ## Constraints
 * No part of a meeting may fall outside office hours.
